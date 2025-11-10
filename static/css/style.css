@@ -1,0 +1,81 @@
+* { box-sizing: border-box; }
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image:linear-gradient(to right, #e6e6ff, #ccf2ff);
+  padding: 30px;
+}
+.container {
+  width: 420px;
+  margin: 30px auto;
+  background:#003c46; 
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 0px 20px black;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+}
+.container:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.45);
+}
+h1 { margin: 0 0 16px; color: white; }
+.task-form { display:flex; gap:8px; justify-content:center; margin-bottom: 16px; }
+.task-input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #cfd8e3;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+.task-input:hover {
+  border-color: #a6b1c2;
+  box-shadow: 0 0 5px rgba(0, 140, 255, 0.2);
+}
+.task-input:focus {
+  border-color: #38b000;
+  box-shadow: 0 0 6px rgba(56, 176, 0, 0.4);
+  outline: none;
+}
+.add-btn {
+  padding: 10px 14px;
+  border: none;
+  background:#38b000;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+.add-btn:hover {
+  background: #45c200;
+  transform: scale(1.07);
+  box-shadow: 0 0 10px rgba(56, 176, 0, 0.6);
+}
+.task-list { list-style: none; padding: 0; margin: 0; text-align: left; }
+.task-item {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background: #fbfdff;
+  border-left: 6px solid #4CAF50;
+  transition: 0.3s ease;
+}
+.task-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: #f3fffa;
+}
+.task-item.done {
+  opacity: 0.6;
+  text-decoration: line-through;
+  border-left-color: #5b5a5a;
+}
+.task-title { font-size: 15px; }
+.actions { display:flex; gap:8px; align-items:center; }
+.action-btn { text-decoration:none; font-size:16px; padding:6px; border-radius:6px; transition: 0.3s ease;}
+.action-btn:hover { background: rgba(0,0,0,0.03); transform: scale(1.1);}
+.no-tasks { color: #353030; padding: 10px 0; }
