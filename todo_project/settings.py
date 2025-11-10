@@ -9,6 +9,8 @@ https://docs.djangoproject.com/en/5.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
+from dotenv import load_dotenv
+load_dotenv()
 
 from pathlib import Path
 import os
@@ -79,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME':'todo_db',
         'USER': 'root',         
-        'PASSWORD': 'Moksha2905',
+        'PASSWORD':os.getenv("MYSQL_PASSWORD") ,
         'HOST': 'localhost',
         'PORT': '3306',
     }
