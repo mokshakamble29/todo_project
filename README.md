@@ -57,4 +57,4 @@ venv\Scripts\activate  # For Windows
 
 👩‍💻 Author
 Moksha Kamble
-Django | Python | Web Developer
+(Django | Python | Web Developer)
