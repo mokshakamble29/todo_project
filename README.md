@@ -1,9 +1,9 @@
 ✅ Django To-Do List Application:
 
 A simple and clean To-Do List Web Application built using Django, designed to help users create, update, complete, and delete tasks efficiently.
-This project is beginner-friendly, follows proper Django structure, and is perfect for resumes, GitHub portfolios, and interviews.
+This project is beginner-friendly, follows proper Django structure, and is perfect for resumes, GitHub portfolios, and interview
 
-====================================================================================================
+
 🚀 Features
 
 ➕ Add new tasks
@@ -15,7 +15,7 @@ This project is beginner-friendly, follows proper Django structure, and is perfe
 🗄️ MySQL database connectivity
 📁 Well-structured Django CRUD project
 
-==================================================================================================
+
 🛠️ Tech Stack
 
 Python
@@ -24,9 +24,10 @@ HTML5, CSS3
 JavaScript
 MySQL
 
-=================================================================================================
+
 
 📂 Project Structure
+
 todo_project/
 │── manage.py
 │── requirements.txt
@@ -51,8 +52,9 @@ todo_project/
 │        ├── css/style.css
 │        └── js/script.js
 
-==================================================================================================
+
 ⚙️ Installation & Setup
+
 ✅ 1. Clone the repository
 git clone https://github.com/mokshakamble29/todo_project.git
 
@@ -61,7 +63,9 @@ cd todo_project
 
 ✅ 3. Create and activate a virtual environment (recommended)
 Windows
+
 python -m venv venv
+
 venv\Scripts\activate
 
 ✅ 4. Install dependencies
@@ -76,7 +80,7 @@ python manage.py runserver
 Your application will now run on:
 👉 http://127.0.0.1:8000/
 
-=================================================================================================
+
 👩‍💻 Author
 Moksha Kamble
 Django | Python | Web Developer
